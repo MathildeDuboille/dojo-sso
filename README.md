@@ -1,32 +1,24 @@
-# dojoSSO
+## Prerequisites
 
-🚧 A project that does something.
+You need to have a node version installed >= 8.x or >= 10.x.
+If you have nvm installed, you can just type `nvm use` to use a working node version.
 
-## Getting started
+```
+cp .env.samples .env
+```
 
-- Follow the [installation](./docs/installation.md) docs
-- Head to [localhost:3000](http://localhost:3000)
+## Installation
 
-## Documentation index
+Run
 
-- [Installation](./docs/installation.md)
-- [Frontend docs](./frontend/README.md)
+```
+yarn install
+```
 
-## Team
+## Start project
 
-> 🚧 Update me!
+Run
 
-Project director:
-  - **P D** (pd@theodo.co.uk)
-
-Developers (see [contributors](../../graphs/contributors)):
-  - **Dev 1** (dev@theodo.co.uk)
-  - **Dev 2** (dev@theodo.co.uk)
-  - **Dev 3** (dev@theodo.co.uk)
-
-Scrum Master:
-  - **S M** (sm@theodo.co.uk)
-
-Product Owner:
-  - **P O** (po@client.com)
-
+```
+yarn start
+```
